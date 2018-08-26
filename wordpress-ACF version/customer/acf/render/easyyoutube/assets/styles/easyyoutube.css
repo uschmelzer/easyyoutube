@@ -1,0 +1,53 @@
+/* easyyoutube.css */
+
+
+/*
+// ———————————————————————————————————————————————————————————————————
+// How this works
+// ———————————————————————————————————————————————————————————————————
+// At the heart is a responsive iframe.
+// See https://davidwalsh.name/responsive-iframes
+// ———————————————————————————————————————————————————————————————————
+*/
+
+.easyyoutubeIframeContainer {
+  position: relative;
+  overflow: hidden;
+  /* The padding-top is the interesting bit.
+		 * Setting the padding-top to a percentage of height 9 / width 16
+		 * allows us to keep a desirable ratio.
+		 * This ratio matches a YouTube height to width ratio,
+		 * but you can use any ratio to match the ratio of your IFRAME usage.
+		 */
+  padding-top: 56.25%;
+}
+
+.easyyoutubeIframeContainer iframe {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.easyyoutubeOverlay {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/*
+// ———————————————————————————————————————————————————————————————————
+// Poster image
+// ———————————————————————————————————————————————————————————————————
+*/
+.easyyoutubeOverlay {
+  background-repeat: no-no-repeat;
+  background-size: cover;
+}

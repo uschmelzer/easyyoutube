@@ -1,0 +1,7 @@
+CHANGELOG
+=========
+
+Montag, den 27. Aug. 2018
+-------------------------
+- Initial Version for sw.de
+- Uses easyjsHasClass()

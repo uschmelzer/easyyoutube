@@ -1,0 +1,61 @@
+/* THEME */
+
+/*
+// ———————————————————————————————————————————————————————————————————
+// Small print
+// ———————————————————————————————————————————————————————————————————
+*/
+.easyyoutubeSmallprintContainer {
+  /* This is important for full height */
+  height: 100%;
+
+}
+
+.easyyoutubeContent {
+  /* Browsercompat: IE9+ and all modern browsers */
+  /* https://www.cssmatic.com/box-shadow */
+  -webkit-box-shadow: 4px 4px 12px -2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 4px 4px 12px -2px rgba(0,0,0,0.3);
+  box-shadow: 4px 4px 12px -2px rgba(0,0,0,0.3);
+
+}
+
+.easyyoutubeTextshadow {
+  /* Browsercompat: IE10+ and all modern browsers */
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+
+.easyyoutubeSmallprintHeadline {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Set color for all smallprint */
+.easyyoutubeSmallprintHeadline,
+.easyyoutubeSmallprintCopy {
+  color: #000!important;
+}
+.easyyoutubeSmallprintCopy a {
+  color: #000!important;
+  text-decoration:underline;
+}
+
+.easyyoutubeSmallfont {
+	font-size:12px;
+  /* Set color via inline style */
+  /* color: #000!important; */
+}
+
+/*
+// ———————————————————————————————————————————————————————————————————
+// Hyphenation
+// ———————————————————————————————————————————————————————————————————
+*/
+.easyyoutubeSmallprintContainer {
+  -ms-hyphens: auto; /* ab IE10 */
+  -moz-hyphens: auto; /* seit Firefox 6 */
+  -webkit-hyphens: auto; /* seit Safari 5.1 (OS X), Safari 4.1 (iOS) */
+  hyphens: auto;
+}
